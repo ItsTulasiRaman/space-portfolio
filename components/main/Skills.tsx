@@ -1,5 +1,7 @@
 import React from 'react'
 import { Skill_data, Frontend_skill, Backend_skill, Full_stack, Other_skill } from '@/constants'
+import { SkillDataProvider } from '../sub/SkillDataProvider'
+import SkillText from '../sub/SkillText'
 
 export const Skills = () => {
   return (
