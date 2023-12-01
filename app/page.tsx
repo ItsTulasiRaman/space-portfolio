@@ -1,10 +1,11 @@
 import Encryption from '@/components/main/Encrption'
 import Hero from '@/components/main/Hero'
+import { Projects } from '@/components/main/Projects'
 import Skills from '@/components/main/Skills'
 import Image from 'next/image'
 
 // Installation files:
-// npm install --save-dev framer-motion three react-intersection-observer @react-three/drei @react-three/fiber @heroicons/react
+// npm install --save-dev framer-motion three react-intersection-observer @react-three/drei @react-three/fiber @heroicons/react react-icons
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <Skills />
         <Encryption />
+        <Projects />
       </div>
     </main>
   )
